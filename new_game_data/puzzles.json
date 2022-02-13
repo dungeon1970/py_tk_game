@@ -1,0 +1,164 @@
+{
+    "Kitchen":
+        {
+        "options":
+            {
+                "1":
+                    {
+                        "storyline":
+                            "There are pans on the stove ready to cook and",
+                        "option":
+                            ["Cook food", "Active"],
+                        "items_needed":
+                            [],
+                        "items_given":
+                            [],
+                        "response":
+                            "you cooked food in the pans",
+                        "new_story":
+                            "there are pans cooking food on the stove, "
+                    },
+                "2":
+                    {
+                        "storyline":
+                            "there is a fire plce in the corner.",
+                        "option":
+                            ["Light a fire", "Active"],
+                        "items_needed":
+                            [],
+                        "items_given":
+                            [],
+                        "response":
+                            "you lit the fire",
+                        "new_story":
+                            "the fire is lit in the corner of the room."
+                    },
+                "3":
+                    {
+                        "storyline":
+                            "There are apples on the table and",
+                        "option":
+                            ["Eat an apple", "Active"],
+                        "items_needed":
+                            [],
+                        "items_given":
+                            [],
+                        "response":
+                            "your ate an apple",
+                        "new_story":
+                            "there is one less apple on the worktop after you ate one of them."
+                     }
+            }
+        },
+    "Bedroom":
+        {
+        "options":
+            {
+                "1":
+                    {
+                        "storyline":
+                            "There is a picture on the wall, it looks crooked at first sight,",
+                        "option":
+                            ["Examine picture", "Active"],
+                        "items_needed":
+                            [["key code"]],
+                        "items_given":
+                            [],
+                        "response":
+                            "The picture slides on the wall to reveal a safe, you need a code to open it, hmmm......",
+                        "new_story":
+                            "The picture on the wall has a hidden safe behind it, you need a code to open it, hmmm...... "
+                    },
+                "2":
+                    {
+                        "storyline":
+                            "there is a bunch of clothes lying on the floor",
+                        "option":
+                            ["Pick up clothes", "Active"],
+                        "items_needed":
+                            [],
+                        "items_given":
+                            [],
+                        "response":
+                            "kitchen",
+                        "new_story":
+                            "after you picked the clothes off the floor, you ironed them and put them away!"
+                    },
+                "3":
+                    {
+                        "storyline":
+                            "there is a deshevelled bed",
+                        "option":
+                            ["Make bed", "Active"],
+                        "items_needed":
+                            [],
+                        "items_given":
+                            [],
+                        "response":
+                            "your dead",
+                        "new_story":
+                            "The bed looks so comfy!"
+                    }
+            }
+        },
+        "Garden":
+            {
+            "options":
+                {
+                    "1":
+                        {
+                            "storyline":
+                                "The garden is full of withered flowers,",
+                            "option":
+                                ["Water flowers", "Active"],
+                            "items_needed":
+                                [],
+                            "items_given":
+                                [],
+                            "response":
+                                "hmmm, nice ggg",
+                            "new_story":
+                                "The flowers in the garden are coming back to life after being watered,"
+                        },
+                    "2":
+                        {
+                            "storyline":
+                                "there is a mower by the shed and the lawn is overgrown.",
+                            "option":
+                                ["Mow the lawn", "Active"],
+                            "items_needed":
+                                [],
+                            "items_given":
+                                [],
+                            "response":
+                                "kitchen",
+                            "new_story":
+                                "after mowing the lawn the garden looks so much better."
+                        },
+                    "3":
+                        {
+                            "storyline":
+                                "by the gate there in a scraggy dog tied up to a tree.",
+                            "option":
+                                ["Free dog", "Active"],
+                            "items_needed":
+                                [],
+                            "items_given":
+                                [],
+                            "response":
+                                "After freeing the dog it jumps up and bites yer bum!!! Ouch!",
+                            "new_story":
+                                "After freeing the dog it jumps up and bites yer bum!!! Ouch!"
+                        }
+                }
+            },
+            "Hallway":
+                {
+               
+                },
+            "Garage":
+                {
+                
+                }
+}
+

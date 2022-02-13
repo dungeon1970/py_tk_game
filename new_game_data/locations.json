@@ -1,0 +1,49 @@
+{
+
+        "Kitchen":
+        {
+                
+                "title":
+                        "You are in the kitchen",
+                "exits":
+                        [["Door", "Hallway"],["Window", "Garden"]],
+                "picture":
+                        "kitchen"
+        },
+        "Bedroom":
+        {
+                "title":
+                        "You are in the bedroom",
+                "exits":
+                        [["Door", "Hallway"]],
+                "picture":
+                        "bedroom"
+        },
+        "Garden":
+        {
+                "title":
+                        "You are in the garden",
+                "exits":
+                        [["Window", "Kitchen"]],
+                "picture":
+                        "garden"
+        },
+        "Hallway":
+        {
+                "title":
+                        "You are in the hallway",
+                "exits":
+                        [["Bedroom", "Bedroom"],["Kitchen", "Kitchen"], ["Garage", "Garage"]],
+                "picture":
+                        "hallway"
+        },
+        "Garage":
+        {
+                "title":
+                        "You are in the garage",
+                "exits":
+                        [["Door", "Hallway"]],
+                "picture":
+                        "garage"
+        }                         
+}
